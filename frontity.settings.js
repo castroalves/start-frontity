@@ -3,7 +3,7 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://start-frontity.vercel.app/",
-      "title": "Start Frontity Blog",
+      "title": "Blast Marketing - Frontity Demo",
       "description": "WordPress installation for Frontity development"
     }
   },
