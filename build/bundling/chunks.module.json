@@ -1,0 +1,81 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "029c437821d9085b0af7",
+  "publicPath": "/static/",
+  "outputPath": "/Users/ccastroalves/Projects/lab/start-frontity/build/static",
+  "assetsByChunkName": {
+    "list": "list.module.js",
+    "start-frontity": "start-frontity.module.js"
+  },
+  "assets": [
+    {
+      "name": "list.module.js",
+      "size": 48021,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "start-frontity.module.js",
+      "size": 5253084,
+      "chunks": [
+        "start-frontity"
+      ],
+      "chunkNames": [
+        "start-frontity"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "start-frontity": {
+      "chunks": [
+        "start-frontity"
+      ],
+      "assets": [
+        "start-frontity.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "start-frontity": {
+      "chunks": [
+        "start-frontity"
+      ],
+      "assets": [
+        "start-frontity.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
