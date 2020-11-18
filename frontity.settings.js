@@ -29,7 +29,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://blastmkt.com/wp-json"
+          "api": "https://razoesparaacreditar.com/wp-json/"
         }
       }
     },
