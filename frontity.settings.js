@@ -1,41 +1,37 @@
 const settings = {
-  "name": "start-frontity",
-  "state": {
-    "frontity": {
-      "url": "https://start-frontity-demo.vercel.app/",
-      "title": "Blast Marketing - Frontity Demo",
-      "description": "WordPress installation for Frontity development"
-    }
+  name: "start-frontity",
+  state: {
+    frontity: {
+      url: "https://start-frontity-demo.vercel.app/",
+      title: "SEO, Métricas e Links Patrocinados - Lisane Andrade",
+      description:
+        "Neste blog você encontra artigos e estudos de caso sobre SEO, métricas e links patrocinados.",
+    },
   },
-  "packages": [
+  packages: [
     {
-      "name": "@frontity/mars-theme",
-      "state": {
-        "theme": {
-          "menu": [
-            [
-              "Home",
-              "/"
-            ]
-          ],
-          "featured": {
-            "showOnList": false,
-            "showOnPost": false
-          }
-        }
-      }
+      name: "@frontity/mars-theme",
+      state: {
+        theme: {
+          menu: [["Home", "/"]],
+          featured: {
+            showOnList: false,
+            showOnPost: false,
+          },
+        },
+      },
     },
     {
-      "name": "@frontity/wp-source",
-      "state": {
-        "source": {
-          "api": "https://blastmkt.com/wp-json"
-        }
-      }
+      name: "@frontity/wp-source",
+      state: {
+        source: {
+          api: "http://www.lisaneandrade.com.br/wp-json/",
+        },
+      },
     },
     "@frontity/tiny-router",
-    "@frontity/html2react"
-  ]
+    "@frontity/html2react",
+  ],
 };
 
 export default settings;
